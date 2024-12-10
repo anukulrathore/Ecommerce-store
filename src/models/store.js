@@ -2,7 +2,7 @@ const store = {
     carts:{},
     orders:{},
     discountCodes:{},
-    orderhistory:{orderCount:{}, nthOrder:5}
+    orderhistory:{orderCount:{}}
 }
 
-module.exports = store;
+export default store;
